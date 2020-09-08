@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplicationBuild</key>
+	<string>444.4</string>
+	<key>AMApplicationVersion</key>
+	<string>2.8</string>
+	<key>AMDocumentVersion</key>
+	<string>2</string>
+	<key>actions</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array/>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.1.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>appPath</key>
+					<dict>
+						<key>isPathPopUp</key>
+						<true/>
+						<key>variableUUIDsInMenu</key>
+						<array/>
+					</dict>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array/>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Launch Application.action</string>
+				<key>ActionName</key>
+				<string>Launch Application</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>appPath</key>
+					<string>/Applications/App Store.app</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.OpenApplication</string>
+				<key>CFBundleVersion</key>
+				<string>1.1.1</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMLaunchApplicationAction</string>
+				<key>InputUUID</key>
+				<string>B5442CDB-D386-4569-B1B5-8C0E1A850772</string>
+				<key>Keywords</key>
+				<array>
+					<string>File</string>
+					<string>Open</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>D3A3E02A-11CE-4E73-9563-8C0B73DB5F84</string>
+				<key>UUID</key>
+				<string>8F7E9D11-CFDD-4DE8-AA12-1587C0691E35</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>/Applications/Contacts.app</string>
+						<key>name</key>
+						<string>appPath</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>309.000000:173.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Launch Application.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run AppleScript.action</string>
+				<key>ActionName</key>
+				<string>Run AppleScript</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>source</key>
+					<string>tell application "Google Chrome" to tell the active tab of its first window
+reload
+end tell
+</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.RunScript</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunScriptAction</string>
+				<key>InputUUID</key>
+				<string>115C5240-D7DE-45FC-8BAB-D81AB59EC86E</string>
+				<key>Keywords</key>
+				<array>
+					<string>Run</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>BF78C783-C738-416C-B231-1479AB219952</string>
+				<key>UUID</key>
+				<string>46BACB04-E26D-47D9-BBAB-D58C36C092B7</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>on run {input, parameters}
+	
+	(* Your script goes here *)
+	
+	return input
+end run</string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>309.000000:419.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+	</array>
+	<key>connectors</key>
+	<dict>
+		<key>A2E8D508-DDD1-4E99-8BA2-D23C151D5DA2</key>
+		<dict>
+			<key>from</key>
+			<string>8F7E9D11-CFDD-4DE8-AA12-1587C0691E35 - 8F7E9D11-CFDD-4DE8-AA12-1587C0691E35</string>
+			<key>to</key>
+			<string>46BACB04-E26D-47D9-BBAB-D58C36C092B7 - 46BACB04-E26D-47D9-BBAB-D58C36C092B7</string>
+		</dict>
+	</dict>
+	<key>workflowMetaData</key>
+	<dict>
+		<key>serviceInputTypeIdentifier</key>
+		<string>com.apple.Automator.nothing</string>
+		<key>serviceOutputTypeIdentifier</key>
+		<string>com.apple.Automator.nothing</string>
+		<key>serviceProcessesInput</key>
+		<integer>0</integer>
+		<key>workflowTypeIdentifier</key>
+		<string>com.apple.Automator.servicesMenu</string>
+	</dict>
+</dict>
+</plist>
